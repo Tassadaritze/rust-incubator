@@ -1,3 +1,7 @@
+mod task_1;
+mod task_2;
+
 fn main() {
-    println!("Implement me!");
+    task_1::run();
+    task_2::run();
 }
