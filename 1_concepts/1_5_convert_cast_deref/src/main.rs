@@ -1,3 +1,5 @@
+mod task_1;
+
 fn main() {
-    println!("Implement me!");
+    task_1::run();
 }
