@@ -1,4 +1,5 @@
 mod dynamic;
+mod static_;
 
 use std::borrow::Cow;
 use std::collections::HashMap;
@@ -35,4 +36,5 @@ where
 
 fn main() {
     dynamic::run();
+    static_::run();
 }
